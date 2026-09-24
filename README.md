@@ -44,21 +44,21 @@ Di era *Smart Home* dan otomasi bangunan, kunci mekanis konvensional memiliki ba
 ## 🔌 Skema Pengabelan Presisi (Pinout ESP32)
 
 ### Modul RFID RC522 (VSPI Protocol)
-* **VCC** \\(\rightarrow\\) **3.3V ESP32**
-* **RST** \\(\rightarrow\\) **GPIO 4**
-* **GND** \\(\rightarrow\\) **GND**
-* **IRQ** \\(\rightarrow\\) *NC (Kosong)*
-* **MISO** \\(\rightarrow\\) **GPIO 19**
-* **MOSI** \\(\rightarrow\\) **GPIO 23**
-* **SCK** \\(\rightarrow\\) **GPIO 18**
-* **SDA (SS)** \\(\rightarrow\\) **GPIO 5**
+* **VCC** >> **3.3V ESP32**
+* **RST** >> **GPIO 4**
+* **GND** >> **GND**
+* **IRQ** >> *NC (Kosong)*
+* **MISO** >> **GPIO 19**
+* **MOSI** >> **GPIO 23**
+* **SCK** >> **GPIO 18**
+* **SDA (SS)** >> **GPIO 5**
 
 ### Komponen Indikator & Sensor
-* **PIR Sensor**: OUT \\(\rightarrow\\) **GPIO 34** (Input Only) | VCC \\(\rightarrow\\) **VIN (5V)**
-* **Servo SG90**: Signal \\(\rightarrow\\) **GPIO 13** | VCC \\(\rightarrow\\) **VIN (5V)**
-* **LCD 16x2 I2C**: SDA \\(\rightarrow\\) **GPIO 21** | SCL \\(\rightarrow\\) **GPIO 22** | VCC \\(\rightarrow\\) **VIN (5V)**
-* **Active Buzzer**: (+) \\(\rightarrow\\) **GPIO 14**
-* **LED Merah**: Anoda (+) \\(\rightarrow\\) **GPIO 2** (Resistor 220Ω)
-* **LED Hijau**: Anoda (+) \\(\rightarrow\\) **GPIO 15** (Resistor 220Ω)
+* **PIR Sensor**: OUT >> **GPIO 34** (Input Only) | VCC \\(\rightarrow\\) **VIN (5V)**
+* **Servo SG90**: Signal >> **GPIO 13** | VCC \\(\rightarrow\\) **VIN (5V)**
+* **LCD 16x2 I2C**: SDA >> **GPIO 21** | SCL \\(\rightarrow\\) **GPIO 22** | VCC \\(\rightarrow\\) **VIN (5V)**
+* **Active Buzzer**: (+) >> **GPIO 14**
+* **LED Merah**: Anoda (+) >> **GPIO 2** (Resistor 220Ω)
+* **LED Hijau**: Anoda (+) >> **GPIO 15** (Resistor 220Ω)
 
 ---
